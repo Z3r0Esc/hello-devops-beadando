@@ -32,7 +32,6 @@ npm start
 ```
 
 ## 2. Buildelés
-A beadandó megköveteli egy dokumentált build lépést.
 A build parancs:
 
 ```bash
@@ -60,11 +59,11 @@ A projekt tartalmaz egy működő Dockerfile-t, amely:
 - futtatja az alkalmazást induláskor
 - a 8080-as portot használja
 
-Docker image buildelése
+Docker image buildelése:
 ```bash
 docker build -t hello-devops:v1 .
 ```
-Konténer futtatása
+Konténer futtatása:
 ```bash
 docker run --rm -p 8080:8080 hello-devops:v1
 ```
@@ -130,4 +129,5 @@ Ez a projekt sikeresen demonstrálja a DevOps beadandó minden szükséges elem�
 - trunk-based Git workflow
 - Docker konténerizálás
 - CI pipeline + Docker registry publikálás
-A projekt így teljesíti a tárgy beadandójának követelményeit.
+
+A projekt így remélem teljesíti a tárgy beadandójának követelményeit.
