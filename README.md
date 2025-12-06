@@ -16,9 +16,9 @@ Célja egy egyszerű alkalmazáson keresztül bemutatni a fő DevOps lépéseket
 **Technológia:** Node.js + Express
 
 Az alkalmazás egyetlen HTTP végpontot biztosít:
-
+```
 GET http://localhost:8080
-
+```
 
 **Válasz:**
 Hello DevOps! Ez a beadando HTTP valasza.
@@ -44,30 +44,21 @@ A build jelenleg csak egy ellenőrző lépés, mivel nincs transzpilálás vagy 
 A fejlesztés Git alapon történt, trunk-based módszert követve.
 
 A repository-ban:
-
-main branch → ez a trunk
-
-legalább egy feature branch:
-
-feature/uj-uzenet
-
-több commit értelmes commitüzenetekkel (pl. "Init: Hello DevOps app", "Feature: uj uzenet hozzaadasa")
-
-a feature branch Pull Request-tel került visszamerge-lésre a main-re
+- main branch → ez a trunk
+- legalább egy feature branch:
+    - feature/uj-uzenet
+- több commit értelmes commitüzenetekkel (pl. "Init: Hello DevOps app", "Feature: uj uzenet hozzaadasa")
+- a feature branch Pull Request-tel került visszamerge-lésre a main-re
 
 Publikus repository link:
 https://github.com/Z3r0Esc/hello-devops-beadando
 
 ## 4. Dockerizálás
 A projekt tartalmaz egy működő Dockerfile-t, amely:
-
-Node 20-alpine image-re épül
-
-telepíti a függőségeket
-
-futtatja az alkalmazást induláskor
-
-a 8080-as portot használja
+- Node 20-alpine image-re épül
+- telepíti a függőségeket
+- futtatja az alkalmazást induláskor
+- a 8080-as portot használja
 
 Docker image buildelése
 ```bash
@@ -120,8 +111,7 @@ GHCR package link:
 https://github.com/Z3r0Esc?tab=packages
 
 ## 6. Fájlstruktúra
-txt
-Kód másolása
+```
 hello-devops/
 │
 ├── index.js
@@ -131,7 +121,7 @@ hello-devops/
 │   └── workflows/
 │       └── ci.yml
 └── README.md
-
+```
 ## 7. Összegzés
 Ez a projekt sikeresen demonstrálja a DevOps beadandó minden szükséges elemét:
 
