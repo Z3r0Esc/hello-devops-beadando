@@ -1,0 +1,16 @@
+{
+  "name": "hello-devops",
+  "version": "1.0.0",
+  "description": "Egyszeru Hello DevOps app beadandohoz",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo Build complete!"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
