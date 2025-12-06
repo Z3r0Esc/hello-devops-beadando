@@ -15,7 +15,7 @@ jobs:
       packages: write
 
     env:
-      IMAGE_NAME: ghcr.io/${{ github.repository_owner | tolower }}/hello-devops
+      IMAGE_NAME: ghcr.io/z3r0esc/hello-devops
 
     steps:
       - name: Checkout repository
