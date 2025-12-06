@@ -126,7 +126,7 @@ hello-devops/
 Ez a projekt sikeresen demonstrálja a DevOps beadandó minden szükséges elemét:
 
 - működő, HTTP-n elérhető alkalmazás
-- dokumentált build lépés
+- dokumentált buildelés
 - trunk-based Git workflow
 - Docker konténerizálás
 - CI pipeline + Docker registry publikálás
