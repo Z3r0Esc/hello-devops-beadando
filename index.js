@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
-  res.send("Hello DevOps! Ez a beadando HTTP valasza.");
+  res.send("Hello DevOps! Uj feature uzenet a beadandoban.");
 });
 
 app.listen(PORT, () => {
