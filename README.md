@@ -1,6 +1,6 @@
 # Hello DevOps – Beadandó projekt
 
-Ez a projekt a GDE „DevOps – Code to Production” tárgy beadandójához készült.  
+Ez a projekt a GDE „DevOps - Code to Production” tárgy beadandójához készült.  
 Célja egy egyszerű alkalmazáson keresztül bemutatni a fő DevOps lépéseket:
 
 - kódkészítés  
